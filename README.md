@@ -1,11 +1,11 @@
 # autolabelimg
 Automatic annotation tool for LabelImg
 
-Download the code from github
+# Download the code from github
   
   git clone https://github.com/juanfeyero/autolabelimg
   
-To run the program
+# To run the program
   
   python labelImg.py
   
