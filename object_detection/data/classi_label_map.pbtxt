@@ -1,0 +1,32 @@
+item {
+    id: 1
+    name: 'person'
+}
+item {
+    id: 2
+    name: 'bicycle'
+}
+item {
+    id: 3
+    name: 'motorcycle'
+}
+item {
+    id: 4
+    name: 'car'
+}
+item {
+    id: 5
+    name: 'pick_up_truck'
+}
+item {
+    id: 6
+    name: 'bus'
+}
+item {
+    id: 7
+    name: 'single_unit_truck'
+}
+item {
+    id: 8
+    name: 'articulated_truck'
+}
