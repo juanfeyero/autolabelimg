@@ -9,6 +9,12 @@ conda create -n tf1 tensorflow==1.15.0
 
 activate tf1
 
+conda install -c anaconda lxml
+
+conda install -c conda-forge opencv
+
+pip install pyqt5
+
 # Download the code from github
   
   git clone https://github.com/juanfeyero/autolabelimg
