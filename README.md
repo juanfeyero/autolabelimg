@@ -2,8 +2,8 @@
 Automatic annotation tool for LabelImg
 
 # Requirements
-TensorFlow 1
-It can be installed in Windows with Anaconda using the following command:
+TensorFlow version 1
+- It can be installed in Windows with Anaconda using the following commands:
 
 conda create -n tf1 tensorflow==1.15.0
 
