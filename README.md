@@ -6,6 +6,7 @@ TensorFlow 1
 It can be installed in Windows with Anaconda using the following command:
 
 conda create -n tf1 tensorflow==1.15.0
+
 activate tf1
 
 # Download the code from github
