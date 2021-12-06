@@ -4,6 +4,7 @@ Automatic annotation tool for LabelImg
 # Requirements
 TensorFlow 1
 It can be installed in Windows with Anaconda using the following command:
+
 conda create -n Tensor1 tensorflow==1.15.0
 
 # Download the code from github
