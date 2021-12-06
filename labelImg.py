@@ -54,14 +54,13 @@ import xml.etree.ElementTree as ET
 import pathlib
 
 __appname__ = 'labelImg'
-NUM_CLASSES = 21
+NUM_CLASSES = 90
 DATABASE  = "annotations"
 IMGCHANNELS = 3
 SEGMENTED = 0 
 CWD_PATH = os.getcwd()
 # Path to frozen detection graph. This is the actual model that is used for the object detection.
-#MODEL_NAME = 'plate_ssdlite2_graph'
-MODEL_NAME = 'fhwa-all'
+MODEL_NAME = 'model'
 PATH_TO_CKPT = os.path.join(CWD_PATH, 'object_detection', MODEL_NAME, 'frozen_inference_graph.pb')
 # List of the strings that is used to add correct label for each box.
 PATH_TO_LABELS = os.path.join(CWD_PATH, 'object_detection', MODEL_NAME, 'label_map.pbtxt')
